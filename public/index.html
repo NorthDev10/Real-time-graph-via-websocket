@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>AJAX</title>
+<style>
+    .whiteText {
+        color: white;
+        text-shadow: 0 0 3px black;
+    }
+    #graph {
+        margin-top: 20px;
+    }
+</style>
+<script async src="WSGraph.js"></script>
+</head>
+<body>
+    <div id="ADCData"></div>
+    <div id="PIO"></div>
+    <div id="ledBtns">
+          <select>
+      <option>1 канал</option>
+      <option>2 канал</option>
+      <option>3 канал</option>
+      <option>4 канал</option>
+      <option>5 канал</option>
+    </select>
+    </div>
+    <canvas id="graph"></canvas>
+    <button id="btnRun">Start</button>
+</body>
+</html>

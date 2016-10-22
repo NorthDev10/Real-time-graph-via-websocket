@@ -1,0 +1,12 @@
+{
+  "name": "fws",
+  "version": "0.0.0",
+  "description": "Flower watering system",
+  "main": "server.js",
+  "repository": "",
+  "author": "",
+  "dependencies": {
+    "express": "~3.2.4",
+    "ws": "^1.1.1"
+  }
+}
